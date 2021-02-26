@@ -1,0 +1,8 @@
+.card {
+    border-radius: 0;
+    margin: 10px auto;
+}
+.card-header {
+    background-color: azure;
+    border-bottom: gray;
+}

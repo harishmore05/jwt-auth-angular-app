@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="card m-5">
+        <div class="card-header text-center">
+            Register
+        </div>
+        <div class="card-body">
+            <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="username">Username: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="text" name="username" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="password">Password: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="password" name="password" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="first_name">First Name: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="text" name="first_name" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="last_name">Last Name: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="text" name="last_name" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="email">Email: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="text" name="email" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="mobile">Mobile: </label>
+                    <input ngModel class="col-md-8 input-box form-control" type="text" name="mobile" required>
+                </div>
+                <div class="form-field row p-2">
+                    <label class="col-md-4 col-form-label" for="dob">Date of Birth: </label>
+                    <input ngModel class="col-md-8 input-box form-control date" type="date" name="dob" required>
+                </div>
+                <div class="form-field mt-2">
+                    <input type="submit" class="btn submit-btn col-md-12" value="Register">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

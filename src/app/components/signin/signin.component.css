@@ -1,0 +1,30 @@
+.card {
+    width: 50%;
+    border-radius: 0;
+    outline: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header {
+    background-color: rgba(137,54,78, 0.5);
+}
+.col-form-label {
+    color: rgba(88, 29, 38, 0.9);
+}
+.input-box {
+    text-decoration: none;
+    outline: none;
+    border: 1px solid rgba(137, 54, 78, 0.1);
+    border-radius: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.submit-btn {
+    background-color: rgba(137, 54, 78, 0.2);
+    border: none;
+    border-radius: 0;
+}
